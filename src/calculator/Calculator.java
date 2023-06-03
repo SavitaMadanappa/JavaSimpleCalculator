@@ -43,27 +43,31 @@ int mul(int a,int b) {
 				int a=scanner.nextInt();
 				int b=scanner.nextInt();
 				System.out.println("result:"+calculator.add(a, b));
+				break;
 				}
 			case 2: {
 				System.out.println("enter two numbers");
 				int a=scanner.nextInt();
 				int b=scanner.nextInt();
 				System.out.println("result:"+calculator.sub(a, b));
+				break;
 				}
 			case 3: {
 				System.out.println("enter two numbers");
 				int a=scanner.nextInt();
 				int b=scanner.nextInt();
 				System.out.println("result:"+calculator.div(a, b));
+				break;
 				}
 			case 4: {
 				System.out.println("enter two numbers");
 				int a=scanner.nextInt();
 				int b=scanner.nextInt();
 				System.out.println("result:"+calculator.mul(a, b));
+				break;
 				}
 			default:
-				throw new IllegalArgumentException("Unexpected value: " + choice);
+               System.out.println("invalid choice");
 			}
 		}
 	}
